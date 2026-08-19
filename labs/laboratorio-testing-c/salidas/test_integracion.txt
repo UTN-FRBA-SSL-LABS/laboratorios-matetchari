@@ -1,0 +1,4 @@
+=== Tests de integracion ===  [OK]   1300 == 1300
+  [OK]   1170 == 1170
+
+--- 2/2 tests OK ---
