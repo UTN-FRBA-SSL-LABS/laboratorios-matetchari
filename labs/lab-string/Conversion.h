@@ -16,7 +16,10 @@
  * Post: devuelve el valor entero correspondiente a la cadena */
 int ToInteger(const char *s);
 
-/* TODO: agregar una operacion a definir libremente.
- * Documentar Pre, Post y firma antes del prototipo. */
+/* ToUnsignedInteger: String -> Unsigned Integer
+ * Pre:  s != NULL, s contiene uno o mas digitos decimales sin signo
+ *       y su valor es representable como unsigned int.
+ * Post: devuelve el valor entero sin signo correspondiente a la cadena. */
+unsigned int ToUnsignedInteger(const char *s);
 
 #endif
